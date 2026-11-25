@@ -1,0 +1,9 @@
+# Static site (HTML/CSS/JS, no framework), managed with npm.
+# The build script is a no-op: there is nothing to compile, so Netlify
+# publishes the files in the talkaboutpraktise/ folder as-is.
+[build]
+  command = "npm run build"
+  publish = "talkaboutpraktise"
+
+[build.environment]
+  NODE_VERSION = "24"
