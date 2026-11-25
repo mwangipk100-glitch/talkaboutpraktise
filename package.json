@@ -1,0 +1,12 @@
+{
+  "name": "talkaboutpraktise",
+  "version": "1.0.0",
+  "description": "P.M.M Holdings security systems website (static HTML/CSS/JS)",
+  "private": true,
+  "scripts": {
+    "build": "echo \"Static site: nothing to build, publishing talkaboutpraktise/\""
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
